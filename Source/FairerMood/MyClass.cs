@@ -8,14 +8,63 @@
  */
 using System;
 using System.Collections.Generic;
+using RimWorld;
+using Verse;
+using Verse.AI;
 
 namespace FairerMood
 {
-	/// <summary>
-	/// Description of MyClass.
-	/// </summary>
-	public class MyClass
+	public class MentalState_AnimalKillingSpree : MentalState
 	{
-		
+		public override bool ForceHostileTo(Thing t)
+		{
+			return t is Pawn && ((Pawn)t).RaceProps.Animal;
+		}
+
+		public override bool ForceHostileTo(Faction f)
+		{
+			return true;
+		}
+
+		public override RandomSocialMode SocialModeMax()
+		{
+			return RandomSocialMode.Off;
+		}
+	}
+	
+	public class MentalState_LookingForTrouble : MentalState
+	{
+		public override bool ForceHostileTo(Thing t)
+		{
+			return t is Pawn && this.pawn.relations.OpinionOf((Pawn) t) < 0;
+		}
+
+		public override bool ForceHostileTo(Faction f)
+		{
+			return true;
+		}
+
+		public override RandomSocialMode SocialModeMax()
+		{
+			return RandomSocialMode.Off;
+		}
+	}
+	
+	public class MentalState_BreakingSpree : MentalState
+	{
+		public override bool ForceHostileTo(Thing t)
+		{
+			return t is Building;
+		}
+
+		public override bool ForceHostileTo(Faction f)
+		{
+			return true;
+		}
+
+		public override RandomSocialMode SocialModeMax()
+		{
+			return RandomSocialMode.Off;
+		}
 	}
 }

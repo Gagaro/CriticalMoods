@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-  <name>Core</name>
-  <author>Ludeon Studios</author>
-  <url>http://rimworldgame.com</url>
-  <description>The core game content for RimWorld.</description>
+  <name>FairerMood</name>
+  <author>Gagaro</author>
+  <url>https://github.com/Gagaro/FairerMood</url>
+  <description>A mod to make moods a little less frustrating.</description>
 </ModMetaData>
