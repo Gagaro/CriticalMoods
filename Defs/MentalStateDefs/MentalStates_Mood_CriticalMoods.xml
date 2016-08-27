@@ -11,7 +11,7 @@
   <MentalBreakDef>
     <defName>Berserk</defName>
     <mentalState>Berserk</mentalState>
-    <commonality>1</commonality>
+    <commonality>1.3</commonality>
     <intensity>Extreme</intensity>
   </MentalBreakDef>
   <MentalStateDef ParentName="BaseMentalState">

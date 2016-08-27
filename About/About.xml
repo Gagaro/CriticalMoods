@@ -4,5 +4,19 @@
   <author>Gagaro</author>
   <url>https://github.com/Gagaro/CriticalMoods</url>
   <targetVersion>0.14.1249</targetVersion>
-  <description>A mod to make moods a little less frustrating.</description>
+  <description>Add three critical moods and change after thoughts to avoid moods to snowball too much.
+  
+  New moods are:
+  
+  * Looking for trouble: Survivor will attack people he doesn't like.
+  * Animal killing spree: Survivor will only attack animals.
+  * Breaking Spree: Survivor will try to break things around him.
+  
+  Change to core are:
+  
+  * Berserk mood is slightly less likely to happen.
+  * Critical mental breaks give "catharsis" afterthought, giving +30 needs
+  * Serious mental breaks give "feeling liberated" afterthought, giving +20 needs
+  * Minor mental breaks give "calmed" afterthought, giving +15 needs
+  </description>
 </ModMetaData>

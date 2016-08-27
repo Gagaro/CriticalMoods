@@ -9,7 +9,7 @@
       <li>
         <label>catharsis</label>
         <description>It felt good to unbottle my feelings for a bit and disconnect.</description>
-        <baseMoodEffect>35</baseMoodEffect>
+        <baseMoodEffect>30</baseMoodEffect>
       </li>
     </stages>
   </ThoughtDef>
@@ -20,7 +20,7 @@
     <stackLimit>3</stackLimit>
     <stages>
       <li>
-        <label>catharsis</label>
+        <label>feeling liberated</label>
         <description>It felt good to unbottle my feelings for a bit and disconnect.</description>
         <baseMoodEffect>20</baseMoodEffect>
       </li>
