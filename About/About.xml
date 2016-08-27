@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-  <name>FairerMood</name>
+  <name>CriticalMoods</name>
   <author>Gagaro</author>
-  <url>https://github.com/Gagaro/FairerMood</url>
+  <url>https://github.com/Gagaro/CriticalMoods</url>
+  <targetVersion>0.14.1249</targetVersion>
   <description>A mod to make moods a little less frustrating.</description>
 </ModMetaData>
