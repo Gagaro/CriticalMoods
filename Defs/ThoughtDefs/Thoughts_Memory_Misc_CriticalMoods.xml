@@ -3,12 +3,12 @@
 
   <ThoughtDef>
     <defName>Catharsis</defName>
-    <durationDays>1</durationDays>
-    <stackLimit>3</stackLimit>
+    <durationDays>2.0</durationDays>
+    <stackLimit>1</stackLimit>
     <stages>
       <li>
         <label>catharsis</label>
-        <description>It felt good to unbottle my feelings for a bit and disconnect.</description>
+        <description>It felt good to finally unbottle my feelings.</description>
         <baseMoodEffect>30</baseMoodEffect>
       </li>
     </stages>
@@ -16,8 +16,8 @@
   
   <ThoughtDef>
     <defName>FeelingLiberated</defName>
-    <durationDays>1</durationDays>
-    <stackLimit>3</stackLimit>
+    <durationDays>2.0</durationDays>
+    <stackLimit>1</stackLimit>
     <stages>
       <li>
         <label>feeling liberated</label>
@@ -29,8 +29,8 @@
   
   <ThoughtDef>
     <defName>Calmed</defName>
-    <durationDays>1</durationDays>
-    <stackLimit>3</stackLimit>
+    <durationDays>2.0</durationDays>
+    <stackLimit>1</stackLimit>
     <stages>
       <li>
         <label>calmed</label>
