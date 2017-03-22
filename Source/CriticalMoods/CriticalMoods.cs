@@ -152,10 +152,11 @@ namespace CriticalMoods
 			Predicate<Thing> predicate = (Thing x) => x is Building;
 			const int searchRegionsMax = 40;
 			IntVec3 arg_25D_0 = pawn.Position;
+            Map map = pawn.Map;
 			ThingRequest arg_25D_1 = ThingRequest.ForGroup(ThingRequestGroup.BuildingArtificial);
 			PathEndMode arg_25D_2 = PathEndMode.Touch;
 			
-			Thing thing = GenClosest.ClosestThingReachable(arg_25D_0, arg_25D_1, arg_25D_2, TraverseParms.For(pawn, Danger.Deadly, TraverseMode.ByPawn, canBash), maxDist, predicate, null, searchRegionsMax, false);
+			Thing thing = GenClosest.ClosestThingReachable(arg_25D_0, map, arg_25D_1, arg_25D_2, TraverseParms.For(pawn, Danger.Deadly, TraverseMode.ByPawn, canBash), maxDist, predicate, null, searchRegionsMax, false);
 			return thing;
 		}
 	}

@@ -1,7 +1,8 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
-# SharpDevelop 5.1
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CriticalMoods", "CriticalMoods.csproj", "{8E77C6B4-6155-46A7-94E8-2B27580FD557}"
 EndProject
 Global
@@ -10,9 +11,12 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8E77C6B4-6155-46A7-94E8-2B27580FD557}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8E77C6B4-6155-46A7-94E8-2B27580FD557}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E77C6B4-6155-46A7-94E8-2B27580FD557}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{8E77C6B4-6155-46A7-94E8-2B27580FD557}.Debug|Any CPU.Build.0 = Release|Any CPU
 		{8E77C6B4-6155-46A7-94E8-2B27580FD557}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8E77C6B4-6155-46A7-94E8-2B27580FD557}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal
