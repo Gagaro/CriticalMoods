@@ -3,8 +3,9 @@
 
   <ThoughtDef>
     <defName>Catharsis</defName>
-    <durationDays>2.0</durationDays>
-    <stackLimit>1</stackLimit>
+    <durationDays>2.5</durationDays>
+	<stackLimit>5</stackLimit>
+	<stackedEffectMultiplier>1.0</stackedEffectMultiplier>
     <stages>
       <li>
         <label>catharsis</label>
@@ -16,8 +17,9 @@
   
   <ThoughtDef>
     <defName>FeelingLiberated</defName>
-    <durationDays>2.0</durationDays>
-    <stackLimit>1</stackLimit>
+    <durationDays>2.5</durationDays>
+	<stackLimit>5</stackLimit>
+	<stackedEffectMultiplier>1.0</stackedEffectMultiplier>
     <stages>
       <li>
         <label>feeling liberated</label>
@@ -29,8 +31,9 @@
   
   <ThoughtDef>
     <defName>Calmed</defName>
-    <durationDays>2.0</durationDays>
-    <stackLimit>1</stackLimit>
+    <durationDays>2.5</durationDays>
+	<stackLimit>5</stackLimit>
+	<stackedEffectMultiplier>1.0</stackedEffectMultiplier>
     <stages>
       <li>
         <label>calmed</label>

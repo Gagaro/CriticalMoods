@@ -24,7 +24,7 @@
     <nameColor>(0.9,0.2,0.5)</nameColor>
     <beginLetterLabel>berserk</beginLetterLabel>
     <beginLetter>{0} has gone berserk!</beginLetter>
-    <beginLetterType>BadUrgent</beginLetterType>
+    <beginLetterDef>BadUrgent</beginLetterDef>
     <minTicksBeforeRecovery>10000</minTicksBeforeRecovery>
     <recoveryMtbDays>0.3</recoveryMtbDays>
     <maxTicksBeforeRecovery>60000</maxTicksBeforeRecovery>
@@ -53,7 +53,7 @@
     <nameColor>(0.9,0.2,0.5)</nameColor>
     <beginLetterLabel>animal killing spree</beginLetterLabel>
     <beginLetter>{0} is killing animals!</beginLetter>
-    <beginLetterType>BadUrgent</beginLetterType>
+    <beginLetterDef>BadUrgent</beginLetterDef>
 	<minTicksBeforeRecovery>10000</minTicksBeforeRecovery>
     <recoveryMtbDays>0.3</recoveryMtbDays>
     <maxTicksBeforeRecovery>60000</maxTicksBeforeRecovery>
@@ -82,7 +82,7 @@
     <nameColor>(0.9,0.2,0.5)</nameColor>
     <beginLetterLabel>looking for trouble</beginLetterLabel>
     <beginLetter>{0} is looking for trouble with people he doesn't like!</beginLetter>
-    <beginLetterType>BadUrgent</beginLetterType>
+    <beginLetterDef>BadUrgent</beginLetterDef>
 	<minTicksBeforeRecovery>10000</minTicksBeforeRecovery>
     <recoveryMtbDays>0.3</recoveryMtbDays>
     <maxTicksBeforeRecovery>60000</maxTicksBeforeRecovery>
@@ -111,7 +111,7 @@
     <nameColor>(0.9,0.2,0.5)</nameColor>
     <beginLetterLabel>breaking spree</beginLetterLabel>
     <beginLetter>{0} is breaking everything!</beginLetter>
-    <beginLetterType>BadUrgent</beginLetterType>
+    <beginLetterDef>BadUrgent</beginLetterDef>
 	<minTicksBeforeRecovery>10000</minTicksBeforeRecovery>
     <recoveryMtbDays>0.3</recoveryMtbDays>
     <maxTicksBeforeRecovery>60000</maxTicksBeforeRecovery>
@@ -144,7 +144,7 @@
     <nameColor>(0.5, 0.9, 0.5)</nameColor>
     <beginLetterLabel>fire starting spree</beginLetterLabel>
     <beginLetter>{0} is on a fire starting spree.</beginLetter>
-    <beginLetterType>BadUrgent</beginLetterType>
+    <beginLetterDef>BadUrgent</beginLetterDef>
     <moodRecoveryThought>Catharsis</moodRecoveryThought>
     <recoveryMessage>{0} is no longer on a fire starting spree.</recoveryMessage>
     <baseInspectLine>Mental state: Fire starting spree</baseInspectLine>
@@ -168,7 +168,7 @@
     <category>Indulgent</category>
     <prisonersCanDo>false</prisonersCanDo>
     <colonistsOnly>true</colonistsOnly>
-    <minTicksBeforeRecovery>6000</minTicksBeforeRecovery>
+    <minTicksBeforeRecovery>20000</minTicksBeforeRecovery>
     <recoveryMtbDays>0.6</recoveryMtbDays>
     <maxTicksBeforeRecovery>60000</maxTicksBeforeRecovery>
     <recoverFromSleep>true</recoverFromSleep>
@@ -178,7 +178,6 @@
     <baseInspectLine>Mental state: Binging on {0}</baseInspectLine>
     <allowBeatfire>true</allowBeatfire>
     <drugCategory>Hard</drugCategory>
-	<unspawnedCanDo>true</unspawnedCanDo>
   </MentalStateDef>
   
   <!-- Mental breaks: serious -->
@@ -214,9 +213,10 @@
     <recoveryMessage>{0} is no longer wandering in a psychotic state.</recoveryMessage>
     <beginLetterLabel>daze</beginLetterLabel>
     <beginLetter>{0} is wandering around in a psychotic state.</beginLetter>
-    <beginLetterType>BadNonUrgent</beginLetterType>
+    <beginLetterDef>BadNonUrgent</beginLetterDef>
     <baseInspectLine>Mental state: Psychotic wandering</baseInspectLine>
     <tale>MentalStateGaveUp</tale>
+	<unspawnedCanDo>true</unspawnedCanDo>
   </MentalStateDef>
 
   <!-- Mental breaks: minor -->
@@ -235,7 +235,7 @@
     <category>Indulgent</category>
     <prisonersCanDo>false</prisonersCanDo>
     <colonistsOnly>true</colonistsOnly>
-    <minTicksBeforeRecovery>6000</minTicksBeforeRecovery>
+    <minTicksBeforeRecovery>20000</minTicksBeforeRecovery>
     <recoveryMtbDays>0.3</recoveryMtbDays>
     <maxTicksBeforeRecovery>40000</maxTicksBeforeRecovery>
     <recoverFromSleep>true</recoverFromSleep>
@@ -243,7 +243,7 @@
     <nameColor>(0.5, 0.9, 0.5)</nameColor>
     <beginLetterLabel>food binge</beginLetterLabel>
     <beginLetter>{0} is pigging out on food.</beginLetter>
-    <beginLetterType>BadNonUrgent</beginLetterType>
+    <beginLetterDef>BadNonUrgent</beginLetterDef>
     <moodRecoveryThought>Calmed</moodRecoveryThought>
     <recoveryMessage>{0} is no longer pigging out on food.</recoveryMessage>
     <baseInspectLine>Mental state: Pigging out</baseInspectLine>
@@ -262,9 +262,9 @@
     <label>sad wandering</label>
     <category>Sad</category>
     <colonistsOnly>true</colonistsOnly>
-    <minTicksBeforeRecovery>6000</minTicksBeforeRecovery>
+    <minTicksBeforeRecovery>30000</minTicksBeforeRecovery>
     <recoveryMtbDays>0.3</recoveryMtbDays>
-    <maxTicksBeforeRecovery>40000</maxTicksBeforeRecovery>
+    <maxTicksBeforeRecovery>60000</maxTicksBeforeRecovery>
     <recoverFromSleep>true</recoverFromSleep>
     <recoverFromDowned>true</recoverFromDowned>
     <moodRecoveryThought>Calmed</moodRecoveryThought>
@@ -273,7 +273,7 @@
     <recoveryMessage>{0} is no longer wandering in sadness.</recoveryMessage>
     <beginLetterLabel>sad wander</beginLetterLabel>
     <beginLetter>{0} is wandering around in sadness.</beginLetter>
-    <beginLetterType>BadNonUrgent</beginLetterType>
+    <beginLetterDef>BadNonUrgent</beginLetterDef>
     <baseInspectLine>Mental state: Sad wandering</baseInspectLine>
     <allowBeatfire>true</allowBeatfire>
 	<unspawnedCanDo>true</unspawnedCanDo>
@@ -288,10 +288,11 @@
   <MentalStateDef ParentName="BaseMentalState">
     <defName>WanderOwnRoom</defName>
     <stateClass>MentalState_WanderOwnRoom</stateClass>
+	<workerClass>MentalStateWorker_WanderOwnRoom</workerClass>
     <label>sitting alone</label>
     <category>Sad</category>
     <colonistsOnly>true</colonistsOnly>
-    <minTicksBeforeRecovery>6000</minTicksBeforeRecovery>
+    <minTicksBeforeRecovery>30000</minTicksBeforeRecovery>
     <recoveryMtbDays>0.6</recoveryMtbDays>
     <maxTicksBeforeRecovery>60000</maxTicksBeforeRecovery>
     <recoverFromSleep>true</recoverFromSleep>
@@ -302,7 +303,7 @@
     <recoveryMessage>{0} is no longer hiding in HIS room.</recoveryMessage>
     <beginLetterLabel>hide in room</beginLetterLabel>
     <beginLetter>{0} is hiding in HIS room.</beginLetter>
-    <beginLetterType>BadNonUrgent</beginLetterType>
+    <beginLetterDef>BadNonUrgent</beginLetterDef>
     <baseInspectLine>Mental state: Hiding in room</baseInspectLine>
     <allowBeatfire>true</allowBeatfire>
   </MentalStateDef>
